@@ -8,7 +8,7 @@ namespace ConsoleApplication2
         {
             
             //integers
-            int variable_1 = Int32.MinValue + 100;
+            int variable_1 = int.MinValue + 100;
             Console.WriteLine(variable_1);
 
             uint variable_uint = uint.MaxValue;
@@ -16,11 +16,13 @@ namespace ConsoleApplication2
             
             var variable_2 = "Hello";
             Console.WriteLine(variable_2);
+            
+            //
 
             byte variable_3 = Byte.MaxValue;
             Console.WriteLine(variable_3);
 
-            sbyte variable_sbyte = SByte.MinValue;
+            sbyte variable_sbyte = sbyte.MinValue;
             Console.WriteLine(variable_sbyte);
             
             //
