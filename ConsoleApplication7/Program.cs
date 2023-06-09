@@ -10,38 +10,40 @@ namespace ConsoleApplication7
     {
         static void Main(string[] args)
         {
-            //int i = int.MaxValue;
-            //short s = short.MaxValue;
+            int i = int.MaxValue;
+            short s = short.MaxValue;
 
-            //i = s;
-            //Console.WriteLine(i);
+            i = s;
+            Console.WriteLine(i);
 
-            //s = (short)i;
-            //Console.WriteLine(s);
-
-            //
-
-            //string s = Console.ReadLine();
-            //Console.WriteLine("Text: " + s);
-
-            //if (Console.ReadKey().Key == ConsoleKey.D1)
-            //{
-            //    Console.WriteLine("\nTrue");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("\nFalse");
-            //}
+            s = (short)i;
+            Console.WriteLine(s);
 
             //
 
-            //string s = Console.ReadLine();
+            string s = Console.ReadLine();
+            Console.WriteLine("Text: " + s);
 
-            //int i = int.Parse(s) + 2;
-            //Console.WriteLine(i);
+            //
 
-            //s = i.ToString();
-            //Console.WriteLine(s);
+            if (Console.ReadKey().Key == ConsoleKey.D1)
+            {
+                Console.WriteLine("\nTrue");
+            }
+            else
+            {
+                Console.WriteLine("\nFalse");
+            }
+
+            //
+
+            string s = Console.ReadLine();
+
+            int i = int.Parse(s) + 2;
+            Console.WriteLine(i);
+
+            s = i.ToString();
+            Console.WriteLine(s);
 
             //
 
